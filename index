@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SvgTemplate</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="main"></main>
+    <svg
+      id="template"
+      data-name="Layer_1"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1000 500"
+    ></svg>
+      <text x="0" y="15" fill="red">SVG</text>
+    </svg>
+    <svg >
+     <g id="circle" cx="5" cy="5" r="4" stroke="blue" />
+    </svg>
+
+    <script></script>
+  </body>
+</html>
