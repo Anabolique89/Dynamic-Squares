@@ -1,10 +1,22 @@
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
+
 .square {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  mix-blend-mode: multiply;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	mix-blend-mode: multiply;
+}
+
+circle {
+	fill: red;
+	stroke: 2px #000;
+}
+
+svg {
+	width: 100%;
+	overflow: visible;
+	height: 550px;
 }
